@@ -1,0 +1,17 @@
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\ImportadorContratos.app.exe
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\ImportadorContratos.app.deps.json
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\ImportadorContratos.app.runtimeconfig.json
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\ImportadorContratos.app.dll
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\ImportadorContratos.app.pdb
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.TelaInicial.resources
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.csproj.GenerateResource.cache
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.AssemblyInfoInputs.cache
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.AssemblyInfo.cs
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.csproj.CoreCompileInputs.cache
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.sourcelink.json
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.dll
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\refint\ImportadorContratos.app.dll
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.pdb
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.genruntimeconfig.cache
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ref\ImportadorContratos.app.dll

@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            btnSelecionarArquivo = new Button();
+            SuspendLayout();
+            // 
+            // btnSelecionarArquivo
+            // 
+            btnSelecionarArquivo.Location = new Point(268, 203);
+            btnSelecionarArquivo.Name = "btnSelecionarArquivo";
+            btnSelecionarArquivo.Size = new Size(163, 23);
+            btnSelecionarArquivo.TabIndex = 0;
+            btnSelecionarArquivo.Text = "Selecionar Arquivo";
+            btnSelecionarArquivo.UseVisualStyleBackColor = true;
+            btnSelecionarArquivo.Click += btnSelecionarArquivo_Click;
+            // 
+            // TelaInicial
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(739, 357);
+            Controls.Add(btnSelecionarArquivo);
+            Name = "TelaInicial";
+            Text = "Importador";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnSelecionarArquivo;
     }
 }

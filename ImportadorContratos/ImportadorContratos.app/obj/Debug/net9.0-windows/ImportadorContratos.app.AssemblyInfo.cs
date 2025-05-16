@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImportadorContratos.app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fb2c011c7e04187984a206e2a87490da1ef1242")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c92480c2801aded8cab2092b006ba644c013c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImportadorContratos.app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImportadorContratos.app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
