@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             btnSelecionarArquivo = new Button();
+            dgvContratos = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgvContratos).BeginInit();
             SuspendLayout();
             // 
             // btnSelecionarArquivo
             // 
-            btnSelecionarArquivo.Location = new Point(268, 203);
+            btnSelecionarArquivo.Location = new Point(327, 12);
             btnSelecionarArquivo.Name = "btnSelecionarArquivo";
             btnSelecionarArquivo.Size = new Size(163, 23);
             btnSelecionarArquivo.TabIndex = 0;
@@ -41,19 +43,30 @@
             btnSelecionarArquivo.UseVisualStyleBackColor = true;
             btnSelecionarArquivo.Click += btnSelecionarArquivo_Click;
             // 
+            // dgvContratos
+            // 
+            dgvContratos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvContratos.Location = new Point(65, 57);
+            dgvContratos.Name = "dgvContratos";
+            dgvContratos.Size = new Size(673, 329);
+            dgvContratos.TabIndex = 1;
+            // 
             // TelaInicial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(739, 357);
+            ClientSize = new Size(834, 454);
+            Controls.Add(dgvContratos);
             Controls.Add(btnSelecionarArquivo);
             Name = "TelaInicial";
             Text = "Importador";
+            ((System.ComponentModel.ISupportInitialize)dgvContratos).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button btnSelecionarArquivo;
+        private DataGridView dgvContratos;
     }
 }
