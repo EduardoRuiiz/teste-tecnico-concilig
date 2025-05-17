@@ -70,3 +70,4 @@ C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\
 C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
 C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Desenv\C#\teste-tecnico-concilig\ImportadorContratos\ImportadorContratos.app\obj\Debug\net9.0-windows\ImportadorContratos.app.TelaLogin.resources

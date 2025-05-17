@@ -36,7 +36,7 @@
             // 
             // btnSelecionarArquivo
             // 
-            btnSelecionarArquivo.Location = new Point(327, 12);
+            btnSelecionarArquivo.Location = new Point(320, 12);
             btnSelecionarArquivo.Name = "btnSelecionarArquivo";
             btnSelecionarArquivo.Size = new Size(163, 23);
             btnSelecionarArquivo.TabIndex = 0;

@@ -10,10 +10,12 @@ namespace ImportadorContratos.app
 {
     public partial class TelaInicial : Form
     {
+        private int usuarioId;
         private List<Contrato> contratos;
-        public TelaInicial()
+        public TelaInicial(int usuarioId)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId;
         }
         //Busca e exibe os contratos do arquivo CSV
         private void btnSelecionarArquivo_Click(object sender, EventArgs e)
@@ -74,7 +76,7 @@ namespace ImportadorContratos.app
                 conexao.Open();
                 foreach (var contrato in contratos)
                 {
-                    string query = "INSERT INTO Contratos (Nome, CPF, NumeroContrato, Produto, Vencimento, Valor) VALUES (@Nome, @CPF, @NumeroContrato, @Produto, @Vencimento, @Valor)";
+                    string query = "INSERT INTO Contratos (Nome, CPF, NumeroContrato, Produto, Vencimento, Valor, UsuarioId) VALUES (@Nome, @CPF, @NumeroContrato, @Produto, @Vencimento, @Valor, @UsuarioId)";
                     using (SqlCommand comando = new SqlCommand(query, conexao))
                     {
                         comando.Parameters.AddWithValue("@Nome", contrato.Nome);
@@ -83,6 +85,7 @@ namespace ImportadorContratos.app
                         comando.Parameters.AddWithValue("@Produto", contrato.Produto);
                         comando.Parameters.AddWithValue("@Vencimento", contrato.Vencimento);
                         comando.Parameters.AddWithValue("@Valor", contrato.Valor);
+                        comando.Parameters.AddWithValue("@UsuarioId", usuarioId);
                         comando.ExecuteNonQuery();
                     }
                 }
