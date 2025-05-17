@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImportadorContratos.app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2a6d2d84766055c0f6a3156dc1471c660826895")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d02646c19478c94bc420fde43a8d5ecbde6eee25")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImportadorContratos.app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImportadorContratos.app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
