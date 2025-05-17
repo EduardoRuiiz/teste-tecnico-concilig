@@ -30,6 +30,7 @@
         {
             btnSelecionarArquivo = new Button();
             dgvContratos = new DataGridView();
+            btnSalvarBanco = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvContratos).BeginInit();
             SuspendLayout();
             // 
@@ -51,11 +52,22 @@
             dgvContratos.Size = new Size(673, 329);
             dgvContratos.TabIndex = 1;
             // 
+            // btnSalvarBanco
+            // 
+            btnSalvarBanco.Location = new Point(359, 403);
+            btnSalvarBanco.Name = "btnSalvarBanco";
+            btnSalvarBanco.Size = new Size(114, 21);
+            btnSalvarBanco.TabIndex = 2;
+            btnSalvarBanco.Text = "Salvar no Banco";
+            btnSalvarBanco.UseVisualStyleBackColor = true;
+            btnSalvarBanco.Click += btnSalvarBanco_Click;
+            // 
             // TelaInicial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(834, 454);
+            Controls.Add(btnSalvarBanco);
             Controls.Add(dgvContratos);
             Controls.Add(btnSelecionarArquivo);
             Name = "TelaInicial";
@@ -68,5 +80,6 @@
 
         private Button btnSelecionarArquivo;
         private DataGridView dgvContratos;
+        private Button btnSalvarBanco;
     }
 }
