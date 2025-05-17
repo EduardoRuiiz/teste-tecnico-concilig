@@ -12,10 +12,14 @@ namespace ImportadorContratos.app
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
+            //Criado e instanciado um objeto do tipo TelaLogin
             var telaLogin = new TelaLogin();
+            //Abre o dialogo de login e verifica se o usuario clicou no botao de login
             if (telaLogin.ShowDialog() == DialogResult.OK)
             {
-            Application.Run(new TelaInicial(telaLogin.UsuarioId, telaLogin.NomeUsuario));
+                //Se o usuario clicou no botao de login, inicia a tela inicial passando o id e nome do usuario logado
+                //e executa a aplicação
+                Application.Run(new TelaInicial(telaLogin.UsuarioId, telaLogin.NomeUsuario));
                 
             }
         }
