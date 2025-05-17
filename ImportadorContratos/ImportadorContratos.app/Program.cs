@@ -15,7 +15,7 @@ namespace ImportadorContratos.app
             var telaLogin = new TelaLogin();
             if (telaLogin.ShowDialog() == DialogResult.OK)
             {
-            Application.Run(new TelaInicial(telaLogin.UsuarioId));
+            Application.Run(new TelaInicial(telaLogin.UsuarioId, telaLogin.NomeUsuario));
                 
             }
         }

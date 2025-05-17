@@ -11,11 +11,13 @@ namespace ImportadorContratos.app
     public partial class TelaInicial : Form
     {
         private int usuarioId;
+        private string nomeUsuario;
         private List<Contrato> contratos;
-        public TelaInicial(int usuarioId)
+        public TelaInicial(int usuarioId, string nomeUsuario)
         {
             InitializeComponent();
             this.usuarioId = usuarioId;
+            this.nomeUsuario = nomeUsuario;
         }
         //Busca e exibe os contratos do arquivo CSV
         private void btnSelecionarArquivo_Click(object sender, EventArgs e)
@@ -90,7 +92,14 @@ namespace ImportadorContratos.app
                     }
                 }
             }
-            MessageBox.Show("Contratos salvos no banco com sucesso!");
+            MessageBox.Show(
+            $"Contratos inseridos:\n" +
+            string.Join("\n", contratos.Select(c => $"{c.Nome} - {c.NumeroContrato}")) +
+            $"\n\nUsuário responsável: {nomeUsuario}",
+            "Contratos Salvos",
+            MessageBoxButtons.OK,
+            MessageBoxIcon.Information
+);
         }
     }
 }
